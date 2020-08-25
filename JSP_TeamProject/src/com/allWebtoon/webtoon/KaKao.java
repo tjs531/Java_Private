@@ -21,7 +21,7 @@ public class KaKao {
 	public static void main(String[] args) throws IOException, ParseException {
 
 		// 0~7 : 요일, 12: 완결
-		String[] day = { "0", "1", "2", "3", "4", "5", "6", "7", "12" };
+		String[] day = { "1", "2", "3", "4", "5", "6", "7", "12" };
 		// P: 무료 W: 시간 지나면 무료
 		String[] bm = { "P", "W" };
 		ArrayList<Cartoon> list = new ArrayList<Cartoon>();
